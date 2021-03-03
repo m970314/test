@@ -57,4 +57,4 @@ try:
 except:
     sys.exit("Error connecting to the database. Please check your inputs.")
 db_cursor = chat_db.cursor()
-app.run(host="127.0.0.1", port=5000, debug=True, threaded=True)
+app.run(host="0.0.0.0", port=5000, debug=True, threaded=True)
